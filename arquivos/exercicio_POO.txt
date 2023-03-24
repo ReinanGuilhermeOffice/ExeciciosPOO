@@ -1,0 +1,56 @@
+1- Escreva um programa que, dados três valores inteiros diferentes entre si, apresente o maior de tais valores.
+
+2- Desenvolva um programa que calcule a soma dos 10 primeiros números inteiros pares positivos.
+
+3- Escreva um programa que apresente os n primeiros números primos a partir do número 2 para um valor n>0 fornecido pelo usuário.
+
+4 - Escreva uma programa que converta uma temperatura expressa em graus Celsius em seu valor equivalente em graus Fahrenheit (C = 5/9*(F-32)) ou vice-versa de acordo com a opção de conversão escolhida pelo usuário.
+
+5 - Escreva um programa que determina a data cronologicamente maior de duas datas fornecidas pelo usuário. Cada data deve ser fornecida por três valores inteiros onde o primeiro representa um dia, o segundo um mês e o terceiro um ano.
+
+6 - Escreva um programa que calcule a nota de aproveitamento (A) de um aluno de acordo com os critérios de avaliação da disciplina.
+
+7 - No sistema imperial (unidade inglesa) freqüentemente são utilizadas as seguintes medidas lineares:
+1 pé = 12 polegadas
+1 jarda = 3 pés
+1 milha = 1760 jardas
+Baseado no fato de que 1 polegada equivale a 25.3995 milímetros no sistema métrico, escreva um programa que converta comprimentos expressos em milhas, jardas, pés e polegadas em quilômetros.
+
+8 - Diz-se que um número inteiro n é um quadrado perfeito se existirem m números ímpares consecutivos a partir do valor 1 cuja soma é igual a n. Neste caso n=m2. Exemplo: 16=1+3+5+7 (16 é igual à soma dos quatro primeiros ímpares a partir de 1) e 16=42. Logo 16 representa um quadrado perfeito. Escreva um programa que verifique se um valor inteiro positivo fornecido pelo usuário é um quadrado perfeito ou não.
+
+9- Dado um número positivo n, achar todos os seus divisores inteiros diferentes de n.
+Exemplo:
+Se a entrado do programa for 308, então a saída deve ser
+1 2 4 7 11 22 28 44 77 154
+
+
+10- Escreva um programa que determine o valor máximo, o valor mínimo e a média dos valores de uma sequência de inteiros armazenada em um arquivo.
+
+11- Escreva um programa que leia um arquivo que contenha um texto e gere um novo que contenha apenas as letras do arquivo orignal na ordem em que lá aparecem.
+
+12 - Escreva um programa que determine a média dos comprimentos de palavras de um texto que se encontra armazenado em um arquivo. Por palavra entende-se uma sequência de caracteres diferentes de branco no sentido amplo. Palavras são separadas entre si por brancos também no sentido amplo.
+
+13 - Escreva um programa que leia um texto armazenado em um arquivo e o reproduza em outro criptografado da seguinte forma: o primeiro caractere é reproduzido no arquivo destino da forma como é lido no arquivo origem e, para os demais caracteres, cada caractere é substituído pelo caractere na posição da tabela ASCII que corresponde ao módulo 128 da posição em tal tabela do caractere lido mais a posição do caractere lido imediatamente antes. Exemplo: Se tivermos no arquivo destino
+35 Abacates
+então deve ser produzido no arquivo de saída
+3hUa#CDDUYX
+
+14 - Escreva um programa que leia um texto armazenado em um arquivo e criptografado de acordo com a técnica descrita acima, decifre tal texto e o apresente, já decifrado, na tela.
+
+15 - Escreva um programa que leia um texto fornecido pelo usuário via teclado e o armazene em um arquivo. O fim da entrada de texto é sinalizada por um ponto no início de uma linha. O ponto utilizado para marcar o fim da entrada de texto não deve aparecer no arquivo gerado pelo programa.
+
+16 - Escreva um programa que leia uma sequência de números inteiros positivos fornecidos pelo usuário em uma linha, via teclado, e os reproduza em código Morse, um por linha, em um arquivo.
+
+17 - Dado um arquivo com números reais, escreva um programa que determine o valor de n correspondente à quantidade de números reais contidos em tal arquivo e depois gere um novo arquivo que contenha os números reais do arquivo original divididos por n.
+
+18 - Dada uma sequencia de números inteiros mantida em um arquivo, escreva um programa que produza dois arquivos: o primeiro com os números pares da sequência original e o segundo com os números ímpares. Os arquivos de saída devem conter um número por linha. Nada se sabe sobre a distribuição dos números nas linhas do arquivo de entrada.
+
+19 - Escreva um programa que gere, para um valor n>=0 fornecido pelo usuário, um "quadrado" de n linhas e n':' nas posições da diogonal principal e os caracteres '+' nas demais posições. Por exemplo, para n=5 o programa deve gerar colunas que tenha caracteres
+    :++++
+    +:+++
+    ++:++
+    +++:+
+    ++++:
+    
+    20 - Em uma competição de ginástica olímpica a nota é determinada por um painel de seis juízes. Cada um dos juízes atribui uma nota entre zero e dez para o desempenho do atleta. Para calcular a nota final, a nota mais alta e a nota mais baixa são descartadas e é calculado a média das quatro restantes. Escreva um programa que leia 6 notas entre zero e dez e calcule a média após o descarte da maior e da menor nota.
+
